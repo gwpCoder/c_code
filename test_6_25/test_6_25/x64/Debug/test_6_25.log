@@ -1,0 +1,3 @@
+﻿  test.c
+D:\c_code\test_6_25\test_6_25\test.c(125): warning C4172: 返回局部变量或临时变量的地址: a
+  test_6_25.vcxproj -> D:\c_code\test_6_25\x64\Debug\test_6_25.exe
