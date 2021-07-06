@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.menu{background-color:indianred;
+	width: 1135px;
+	height: 40px;
+	margin: 0 auto;}
+
+ul{ list-style:none;}
+
+ul li{ line-height:40px;
+	text-align:center;
+	position:relative;
+	float:left;
+	}
+
+a{ text-decoration: none;
+	color: brown;
+	display:block;
+	width: 150px;
+}
+
+ul a:hover{
+	color:#FFF;
+	background-color:coral;}
+
+ul li ul li{ float:none;
+			margin-top:2px;
+			background-color:coral;
+}
+
+ul li ul{ width:90px;
+	position:absolute; 
+	top: 40px;
+	left: -40px;
+	display:none;
+	text-align: center;
+	}
+
+ul li:hover ul{display:block;
+	flex-direction: column;}
+
+h1{font-family: "楷体"; 
+	color:brown;
+	background-color:#E3BD1D;}
+
+h4{background-color:aquamarine;
+	color: aliceblue;}
+
+.foot{ width:100px;
+		margin:0 auto;
+		text-align:center;
+		font-family:'微软雅黑';
+		font-size:16px;
+		font-weight:bold;
+   		height:30px;
+		display:inline-block;}
+
+.div1{margin:10px;}
